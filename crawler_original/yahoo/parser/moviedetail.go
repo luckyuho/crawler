@@ -40,7 +40,8 @@ func organize_text(name string) string {
 	name = strings.Replace(name, "***", special_char, -1)
 	name = strings.Replace(name, "**", special_char, -1)
 	name = strings.Replace(name, "：*", ":", -1)
-	name = strings.Replace(name, "*", special_char+"\n", -1)
+	// name = strings.Replace(name, "*", special_char+"\n", -1)
+	name = strings.Replace(name, "*", "\n", -1)
 
 	return name
 }
