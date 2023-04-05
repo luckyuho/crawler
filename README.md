@@ -12,8 +12,8 @@
     <td>爬蟲結果(1)</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/movieList.png" width=400 height=1000 title="instructor profile" /></td>
-    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/crawlerMovieList.png" width=300 height=600 title="student profile" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/movieList.png" width=400 height=1000 title="電影列表" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/crawlerMovieList.png" width=300 height=600 title="電影列表爬蟲結果" /></td>
   </tr>
 </table>
 </div>
@@ -26,17 +26,24 @@
     <td>爬蟲結果(2)</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/movieDetail.png" width=600 height=340 title="instructor profile" /></td>
-    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/crawlerMovieDetail.png" width=270 height=540 title="student profile" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/movieDetail.png" width=600 height=340 title="電影資訊" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/crawlerMovieDetail.png" width=270 height=540 title="電影資訊爬蟲結果" /></td>
   </tr>
 </table>
 </div>
 
 ## crawler_original
- - 基本爬蟲架構
+ - 基本爬蟲架構，其架構如下圖所示:
+ <div align="center">
+   <img src="https://github.com/luckyuho/crawler/blob/main/img/single_thread.png" width=800 height=400 title="單執行緒的爬蟲架構" />
+ </div>
+ 
 
 ## rawler_concurrency_simple
- - 基本高併發爬蟲 (簡易修改crawler_original)，但可能會因為請求速度太快，會被某些網站擋下來，擋掉後就會死掉，需要而外給請求設限條件
+ - 基本高併發爬蟲 (簡易修改crawler_original)，但可能會因為請求速度太快，會被某些網站擋下來，擋掉後就會死掉，需要而外給請求設限條件，所以有了crawler_concurrency_queue版本的改良
+ <div align="center">
+   <img src="https://github.com/luckyuho/crawler/blob/main/img/coroutine.png" width=800 height=400 title="高病發的爬蟲架構" />
+ </div>
 
 ## crawler_concurrency_queue
  - 高併發，利用通道阻塞特性來避免因請求過快被擋掉而死亡的方式
