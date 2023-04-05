@@ -1,6 +1,37 @@
 # 網路爬蟲
  - 以下範例是爬 [yahoo 的電影資訊](https://movies.yahoo.com.tw/movie_intheaters.html)
 
+## 功能
+根據[yahoo 的電影資訊](https://movies.yahoo.com.tw/movie_intheaters.html)中的資訊，將裡頭的第一頁電影列表及每部電影中的詳細資料抓取出來，結果如下：
+
+ - 第一層資訊
+<div align="center">
+<table>
+  <tr>
+    <td>電影列表</td>
+    <td>爬蟲結果(1)</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/instructorProfile.png" width=270 height=340 title="instructor profile" /></td>
+    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/studentProfile.png" width=270 height=340 title="student profile" /></td>
+  </tr>
+</table>
+</div>
+
+ - 第二層資訊
+<div align="center">
+<table>
+  <tr>
+    <td>電影列表中每個電影個詳細資訊</td>
+    <td>爬蟲結果(2)</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/instructorProfile.png" width=270 height=340 title="instructor profile" /></td>
+    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/studentProfile.png" width=270 height=340 title="student profile" /></td>
+  </tr>
+</table>
+</div>
+
 ## crawler_original
  - 基本爬蟲架構
 
@@ -12,3 +43,6 @@
 
 ## crawler_concurrency_integral
  - 將 crawler_concurrency_queue 的版本利用抽象層改得更靈活
+
+## 簡單的投影片介紹
+ - [投影片介紹crawler_original與rawler_concurrency_simple的連結](https://docs.google.com/presentation/d/13e4A06VpmRPncbGGWVs32RFA1GtwsRFzH_CuXxcki1Q/edit#slide=id.p)
