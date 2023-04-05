@@ -12,8 +12,8 @@
     <td>爬蟲結果(1)</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/instructorProfile.png" width=270 height=340 title="instructor profile" /></td>
-    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/studentProfile.png" width=270 height=340 title="student profile" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/movieList.png" width=400 height=1000 title="instructor profile" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/crawlerMovieList.png" width=300 height=600 title="student profile" /></td>
   </tr>
 </table>
 </div>
@@ -22,12 +22,12 @@
 <div align="center">
 <table>
   <tr>
-    <td>電影列表中每個電影個詳細資訊</td>
+    <td>電影列表中每個電影個詳細資訊(這裡僅顯示其中一個資料為範例)</td>
     <td>爬蟲結果(2)</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/instructorProfile.png" width=270 height=340 title="instructor profile" /></td>
-    <td><img src="https://github.com/luckyuho/UdemyWebCourseProject/blob/main/Project7_MERN/images/studentProfile.png" width=270 height=340 title="student profile" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/movieDetail.png" width=600 height=340 title="instructor profile" /></td>
+    <td><img src="https://github.com/luckyuho/crawler/blob/main/img/crawlerMovieDetail.png" width=270 height=540 title="student profile" /></td>
   </tr>
 </table>
 </div>
